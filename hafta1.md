@@ -1,36 +1,4 @@
-# 1.Hafta: Frontend Geliştirme ve Html-Css'e Giriş
-
-- **HTML (HyperText Markup Language):** Web sayfalarının iskeletini oluşturur. Yapı ve içerik sağlamak için kullanılır.
-    
-    ```html
-    <h1>Merhaba Dünya</h1>
-    <p>Bu bir paragraftır.</p>
-
-    ```
-    
-- **CSS (Cascading Style Sheets):** Web sayfalarının görünümünü ve düzenini tasarlamak için kullanılır. Renkler, yazı tipleri, düzenler ve diğer stil özelliklerini belirler.
-    
-    ```css
-    h1 {
-      color: blue;
-      text-align: center;
-    }
-    
-    p {
-      font-size: 16px;
-    }
-    
-    ```
-    
-- **JavaScript:** Web sayfalarına dinamik özellikler ve etkileşim eklemek için kullanılır. Olaylar, animasyonlar ve veri işleme gibi işlemleri gerçekleştirir.
-    
-    ```jsx
-    document.querySelector('h1').addEventListener('click', function() {
-      alert('Başlık tıklandı!');
-    });
-    
-    ```
-# 1- HTML Temelleri
+# 1.Hafta: HTML Temelleri
 
 - **HTML nedir?**
 
@@ -61,9 +29,7 @@
 
     - **mark :**  yazı üzerine sarı şerit çeker
 
-- **Uygulama:** Basit bir kişisel tanıtım sayfası oluşturma
-
-    ```html
+```html
         <title>Benim İlk Sayfam</title>
 </head>
 <body>
@@ -75,18 +41,19 @@
     <p>Ben web geliştirme öğreniyorum ve çok heyecanlıyım!</p>
 </body>
 </html>
-    ```
+ ```
+- **Uygulama:** Basit bir kişisel tanıtım sayfası oluşturma
 
 # 2-HTML Listeleri ve Bağlantılar
 
 - **Sıralı ve sırasız listeler:**
     - **ol (ordinary list), ul (unordinary list) :** ol 1,2,3 a,b,c şeklinde numaralı veya sıralı listeler, ul noktalarla listeler sıralı değildir.
-    - **Bağlantılar:** <a href="...">
-    - **Resimler:** <img src="..." alt="..."> 
+    - **Bağlantılar:** 
+    - **Resimler:**  
 
 - **Liste Yapısı Örnek :**
 
-    ´´´html
+´´´html
     <ol type="1">
         <li>
             İç Donanım Birimleri
@@ -110,8 +77,7 @@
             </ol>
         </li>
     </ol>
-
-    ´´´
+´´´
 
 - **Uygulama:** Hobi listesi ve favori web sitelerine bağlantılar içeren bir sayfa oluşturma
 
