@@ -1,7 +1,7 @@
 # Dersler
-1.[Hafta 1 : HTML Temelleri](./hafta1.md)
-2.[Hafta 2 : HTML Yapıları ve Tablolar](./hafta2.md)
-3.[Hafta 3 : Css'e Giriş](./hafta3.md)
+- 1.[Hafta 1 : HTML Temelleri](./hafta1.md)
+- 2.[Hafta 2 : HTML Yapıları ve Tablolar](./hafta2.md)
+- 3.[Hafta 3 : Css'e Giriş](./hafta3.md)
 
 # Frontend Geliştirme ve Html-Css'e Giriş
 
