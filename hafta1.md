@@ -48,10 +48,10 @@
 
 - **Sıralı ve sırasız listeler:**
     - **ol (ordinary list), ul (unordinary list) :** ol 1,2,3 a,b,c şeklinde numaralı veya sıralı listeler, ul noktalarla listeler sıralı değildir.
-    - **Bağlantılar:** 
-    - **Resimler:**  
+    - **Bağlantılar** 
+    - **Resimler**  
 - **Uygulama:** Hobi listesi ve favori web sitelerine bağlantılar içeren bir sayfa oluşturma
 
 - **Mini Proje**
-•	Öğrenciler, öğrendikleri tüm HTML etiketlerini kullanarak çok sayfalı basit bir kişisel web sitesi oluşturacak
-•	Ana sayfa  ve ilgi alanları sayfası içermeli
+- •	Öğrenciler, öğrendikleri tüm HTML etiketlerini kullanarak çok sayfalı basit bir kişisel web sitesi oluşturacak
+- •	Ana sayfa  ve ilgi alanları sayfası içermeli
