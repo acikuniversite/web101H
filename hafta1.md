@@ -53,5 +53,5 @@
 - **Uygulama:** Hobi listesi ve favori web sitelerine bağlantılar içeren bir sayfa oluşturma
 
 - **Mini Proje**
-- •	Öğrenciler, öğrendikleri tüm HTML etiketlerini kullanarak çok sayfalı basit bir kişisel web sitesi oluşturacak
-- •	Ana sayfa  ve ilgi alanları sayfası içermeli
+    - Öğrenciler, öğrendikleri tüm HTML etiketlerini kullanarak çok sayfalı basit bir kişisel web sitesi oluşturacak
+    - Ana sayfa  ve ilgi alanları sayfası içermeli
