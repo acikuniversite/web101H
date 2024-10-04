@@ -32,12 +32,12 @@
     ```
 # 1- HTML Temelleri
 
-- **•	HTML nedir?**
+- **HTML nedir?**
 
 - **Tanım:** HyperText Markup Language, web sayfalarının iskeletini oluşturan işaretleme dilidir.
 - **Doğası:** HTML, web tarayıcılarının web sayfalarını görüntülemek için anladığı bir dil.
 
-- **•	Temel HTML yapısı:** 
+- **Temel HTML yapısı:** 
     - **DOCTYPE:** HTML belgesinin türünü belirtir.
   
     - **html Etiketi:** Sayfadaki tüm içerikleri içine alan en dıştaki etikettir. Bir nevi her şeyi kapsayan büyük kutu gibi düşünebilirsin.
@@ -46,7 +46,7 @@
 
     - **body Etiketi:** Sayfada gördüğün her şey buradadır. Metinler, resimler, videolar ve diğer tüm içerikler body etiketi içinde bulunur.
 
-- **• Metin etiketleri:**  <h1> - <h6>, <p>, <br>, <strong>
+- **Metin etiketleri:**
     - **hr :** bir satır çizgi çeker
 
     - **br :** bir satır boşluk bırakır
@@ -55,20 +55,16 @@
 
     - **b :** kalın yapar
 
-   - **strong ve bFarkı:** '<strong>' metni kalın yapmasının yanı sıra, bu metne daha fazla anlam ve önem katar. Tarayıcılar genelde metni yine kalın olarak gösterir, ancak ekran okuyucular bu metni daha vurgulu şekilde okuyabilir ve metnin önemli olduğunu belirtir. '<b>' etiketi ise sadece görsel bir vurgudur ve metnin anlamı üzerinde bir etkisi yoktur.
+   - **strong ve bFarkı:** strong metni kalın yapmasının yanı sıra, bu metne daha fazla anlam ve önem katar. Tarayıcılar genelde metni yine kalın olarak gösterir, ancak ekran okuyucular bu metni daha vurgulu şekilde okuyabilir ve metnin önemli olduğunu belirtir. b etiketi ise sadece görsel bir vurgudur ve metnin anlamı üzerinde bir etkisi yoktur.
 
     - **i :** italic yapar
 
     - **mark :**  yazı üzerine sarı şerit çeker
 
-- **•	Uygulama:** Basit bir kişisel tanıtım sayfası oluşturma
+- **Uygulama:** Basit bir kişisel tanıtım sayfası oluşturma
 
     ```html
-        <!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <title>Benim İlk Sayfam</title>
+        <title>Benim İlk Sayfam</title>
 </head>
 <body>
     <h1>Merhaba, Ben [İsim]</h1>
@@ -83,10 +79,10 @@
 
 # 2-HTML Listeleri ve Bağlantılar
 
-- **• Sıralı ve sırasız listeler:** <ul>, <ol>, <li>
-    - **• ol (ordinary list), ul (unordinary list) :** ol 1,2,3 a,b,c şeklinde numaralı veya sıralı listeler, ul noktalarla listeler sıralı değildir.
-    - **• Bağlantılar:** <a href="...">
-    - **• Resimler:** <img src="..." alt="..."> 
+- **Sıralı ve sırasız listeler:**
+    - **ol (ordinary list), ul (unordinary list) :** ol 1,2,3 a,b,c şeklinde numaralı veya sıralı listeler, ul noktalarla listeler sıralı değildir.
+    - **Bağlantılar:** <a href="...">
+    - **Resimler:** <img src="..." alt="..."> 
 
 - **Liste Yapısı Örnek :**
 
@@ -117,7 +113,7 @@
 
     ´´´
 
--**• Uygulama:** Hobi listesi ve favori web sitelerine bağlantılar içeren bir sayfa oluşturma
+-**Uygulama:** Hobi listesi ve favori web sitelerine bağlantılar içeren bir sayfa oluşturma
 
 -**Mini Proje**
 •	Öğrenciler, öğrendikleri tüm HTML etiketlerini kullanarak çok sayfalı basit bir kişisel web sitesi oluşturacak
@@ -127,15 +123,15 @@
 
 # 1-HTML Tabloları
 
--**•Tablo yapısı:** <table>, <tr>, <th>, <td>, <caption>
--**table, th, td, tr, rowspan - colspan:**
--**tablo, th, caption :** tablo başlıkarı
--**td :** satırlardaki datalar
--**tr :** row satır 
--**rowspan :** satırları birleştirip başlığı hizalar 
--**colspan :** sütunları birleştirip başlığı hizalar
+-**Tablo yapısı:**
+    -**table, th, td, tr, rowspan - colspan:**
+    -**tablo, th, caption :** tablo başlıkarı
+    -**td :** satırlardaki datalar
+    -**tr :** row satır 
+    -**rowspan :** satırları birleştirip başlığı hizalar 
+    -**colspan :** sütunları birleştirip başlığı hizalar
 
-**•	Uygulama:** Ders programı oluşturma
+**Uygulama:** Ders programı oluşturma
 
 ```html
 <table border="1">
@@ -163,22 +159,22 @@
 
 # 2-Formlar ve Giriş Elemanları
 
-**•	Form yapısı:** <form>
-**•	Metin girişi:** <input type="text">, <textarea>
-**•	Seçim elemanları:** <input type="radio">, <input type="checkbox">, <select>
-**•	Butonlar:** <input type="submit">, <button> 
+**•	Form yapısı** 
+**•	Metin girişi** 
+**•	Seçim elemanları**
+**•	Butonlar**  
 
 **•	Uygulama:** Basit bir iletişim formu oluşturma
 
 # 3-Semantik HTML ve Sayfa Yapısı
-**•	Konu:** Sayfa yapısını oluşturma ve bölümlere ayırma 
-**•	Semantik etiketler:** <header>, <nav>, <main>, <article>, <section>, <aside>, <footer>
-    **Article (<article></article>)**: Kendi başına anlamlı bir yazı veya içerik parçasını ifade eder. Örneğin, bir blog yazısı veya haber makalesi.
-    **Section (<section></section>):** Bir konuyu ya da içeriği düzenlemek için kullanılan bir bölüm. Sayfayı konulara göre ayırmak için kullanılır.
-    **Nav (<nav></nav>):** Sayfadaki menü veya bağlantılarla gezinme kısmıdır. Örneğin, bir site içi menü veya yönlendirme bağlantıları burada olur.
-    **Aside (<aside></aside>):** Ana içerikten bağımsız, ek bilgi veya yan bilgi içeren bölümdür. Örneğin, bir makalenin yanındaki küçük notlar veya reklamlardır.
-    **Footer (<footer></footer>):** Sayfanın en alt kısmıdır. Genelde iletişim bilgileri, telif hakları, sosyal medya bağlantıları gibi şeyler burada bulunur.
-    **Header (<header></header>):** Sayfanın ya da bir bölümün üst kısmıdır. Genellikle başlıklar, logolar veya menü bağlantıları içerir.
+-**•	Konu:**  Sayfa yapısını oluşturma ve bölümlere ayırma 
+-**•	Semantik etiketler:**
+    -**Article:** Kendi başına anlamlı bir yazı veya içerik parçasını ifade eder. Örneğin, bir blog yazısı veya haber makalesi.
+    -**Section:** Bir konuyu ya da içeriği düzenlemek için kullanılan bir bölüm. Sayfayı konulara göre ayırmak için kullanılır.
+    -**Nav:** Sayfadaki menü veya bağlantılarla gezinme kısmıdır. Örneğin, bir site içi menü veya yönlendirme bağlantıları burada olur.
+    -**Aside:** Ana içerikten bağımsız, ek bilgi veya yan bilgi içeren bölümdür. Örneğin, bir makalenin yanındaki küçük notlar veya reklamlardır.
+    -**Footer:** Sayfanın en alt kısmıdır. Genelde iletişim bilgileri, telif hakları, sosyal medya bağlantıları gibi şeyler burada bulunur.
+    -**Header:** Sayfanın ya da bir bölümün üst kısmıdır. Genellikle başlıklar, logolar veya menü bağlantıları içerir.
 
     ![Semantic Html Örneği]([https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJnp5jBUlXTjj-AgoqYdPNAH0i4XvyOWeJLl3IVYwLzApd5vonev2Z5NPNggLRtp7GbseNUjKb8B5b0mzdvT3o_GS-3g-NGgcxdsUEjbVFWwbC4dp7n71k0w_GWl-qH_voeHf-LZfMjjKpdW8OEDpMIhG0azdNt9FAJEy5vBclZepigSPH7QdvXV-wpc4/s627/SemanticHTML.jpg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmuratbilginer.net%2Ffrontend-developer-roadmap-html-5-tutorial-27-semantik-etiketler-div-elementi-2%2F&psig=AOvVaw261zUQXG1uv6QEOnAisJyQ&ust=1728126710199000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjEjOnL9IgDFQAAAAAdAAAAABAE))
     
