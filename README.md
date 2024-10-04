@@ -1,4 +1,4 @@
-# 1.	Hafta: Frontend Geliştirme ve Html-Css'e Giriş
+# 1.Hafta: Frontend Geliştirme ve Html-Css'e Giriş
 
 - **HTML (HyperText Markup Language):** Web sayfalarının iskeletini oluşturur. Yapı ve içerik sağlamak için kullanılır.
     
@@ -36,7 +36,7 @@
 
 - **Tanım:** HyperText Markup Language, web sayfalarının iskeletini oluşturan işaretleme dilidir.
 - **Doğası:** HTML, web tarayıcılarının web sayfalarını görüntülemek için anladığı bir dil.
-- 
+
 **•	Temel HTML yapısı:** <!DOCTYPE html>, <html>, <head>, <body>
 -**DOCTYPE:** HTML belgesinin türünü belirtir. Örneğin: `<!DOCTYPE html>`
   
@@ -47,17 +47,17 @@
 -**body Etiketi:** Sayfada gördüğün her şey buradadır. Metinler, resimler, videolar ve diğer tüm içerikler body etiketi içinde bulunur.
 
 -**•Metin etiketleri:** <h1> - <h6>, <p>, <br>, <strong>, <em> 
-**hr :** bir satır çizgi çeker
+-**hr :** bir satır çizgi çeker
 
-**br :** bir satır boşluk bırakır
+-**br :** bir satır boşluk bırakır
 
-**strong :** kalın yapar
+-**strong :** kalın yapar
 
-**b :** kalın yapar
+-**b :** kalın yapar
 
-**strong ve bFarkı:** <strong> metni kalın yapmasının yanı sıra, bu metne daha fazla anlam ve önem katar.
+**strong ve bFarkı:** '<strong>' metni kalın yapmasının yanı sıra, bu metne daha fazla anlam ve önem katar.
 Tarayıcılar genelde metni yine kalın olarak gösterir, ancak ekran okuyucular bu metni daha vurgulu şekilde okuyabilir ve
-metnin önemli olduğunu belirtir. <b> etiketi ise sadece görsel bir vurgudur ve metnin anlamı üzerinde bir etkisi yoktur.
+metnin önemli olduğunu belirtir. '<b>' etiketi ise sadece görsel bir vurgudur ve metnin anlamı üzerinde bir etkisi yoktur.
 
 **i :** italic yapar
 
@@ -85,12 +85,12 @@ metnin önemli olduğunu belirtir. <b> etiketi ise sadece görsel bir vurgudur v
 ```
 
 # 2-HTML Listeleri ve Bağlantılar
-**•	Sıralı ve sırasız listeler:** <ul>, <ol>, <li>
-**ol (ordinary list), ul (unordinary list) :** ol 1,2,3 a,b,c şeklinde numaralı veya sıralı listeler, ul noktalarla listeler sıralı değildir.
-**•	Bağlantılar:** <a href="...">
-**•	Resimler:** <img src="..." alt="..."> 
+-**•Sıralı ve sırasız listeler:** <ul>, <ol>, <li>
+-**ol (ordinary list), ul (unordinary list) :** ol 1,2,3 a,b,c şeklinde numaralı veya sıralı listeler, ul noktalarla listeler sıralı değildir.
+-**•Bağlantılar:** <a href="...">
+-**•Resimler:** <img src="..." alt="..."> 
 
-**Liste Yapısı Örnek :**
+-**Liste Yapısı Örnek :**
 
     ´´´html
     <ol type="1">
@@ -119,21 +119,23 @@ metnin önemli olduğunu belirtir. <b> etiketi ise sadece görsel bir vurgudur v
     
 ´´´
 
-**•	Uygulama:** Hobi listesi ve favori web sitelerine bağlantılar içeren bir sayfa oluşturma
+-**•Uygulama:** Hobi listesi ve favori web sitelerine bağlantılar içeren bir sayfa oluşturma
 
-**Mini Proje**
+-**Mini Proje**
 •	Öğrenciler, öğrendikleri tüm HTML etiketlerini kullanarak çok sayfalı basit bir kişisel web sitesi oluşturacak
 •	Ana sayfa  ve ilgi alanları sayfası içermeli
 
-# 2.	Hafta: HTML Yapıları ve Tablolar
+# 2.Hafta: HTML Yapıları ve Tablolar
+
 # 1-HTML Tabloları
-**•	Tablo yapısı:** <table>, <tr>, <th>, <td>, <caption>
-**table, th, td, tr, rowspan - colspan:**
-**tablo, th, caption :** tablo başlıkarı
-**td :** satırlardaki datalar
-**tr :** row satır 
-**rowspan :** satırları birleştirip başlığı hizalar 
-**colspan :** sütunları birleştirip başlığı hizalar
+
+-**•Tablo yapısı:** <table>, <tr>, <th>, <td>, <caption>
+-**table, th, td, tr, rowspan - colspan:**
+-**tablo, th, caption :** tablo başlıkarı
+-**td :** satırlardaki datalar
+-**tr :** row satır 
+-**rowspan :** satırları birleştirip başlığı hizalar 
+-**colspan :** sütunları birleştirip başlığı hizalar
 
 **•	Uygulama:** Ders programı oluşturma
 
