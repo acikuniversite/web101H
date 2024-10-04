@@ -40,15 +40,13 @@ h1 {
 - **Genişlik ve yükseklik ayarlama**
 - **Display özellikleri:** block, inline, inline-block
 - **Basit konumlandırma:** static, relative, absolute
-
-- **Uygulama:** Önceki projenin sayfa düzenini CSS ile geliştirme
-
+-
 - **CSS Box Model:** Bu modelde, her HTML elementinin bir kutu gibi davranır ve bu kutunun içerik **(content)**,
 dolgu **(padding)**, kenarlık **(border)** ve kenar boşluğu **(margin)** olmak üzere dört bölümden oluşur.
-- **Margin (Kenar Boşluğu):** Elemanın dışındaki boşluk. Diğer elementlerle arasındaki mesafeyi belirler.
-- **Border (Kenarlık):** Padding ve içeriğin etrafındaki çizgi.
-- **Padding (Dolgu):** İçerik ile border arasındaki iç boşluk.
-- **Content (İçerik):** Elemanın asıl içeriğinin bulunduğu alan.
+    - **Margin (Kenar Boşluğu):** Elemanın dışındaki boşluk. Diğer elementlerle arasındaki mesafeyi belirler.
+    - **Border (Kenarlık):** Padding ve içeriğin etrafındaki çizgi.
+    - **Padding (Dolgu):** İçerik ile border arasındaki iç boşluk.
+    - **Content (İçerik):** Elemanın asıl içeriğinin bulunduğu alan.
 
 Örnek:
 
@@ -76,9 +74,9 @@ div {
     ```
 
 - **Display Özellikleri:** Elementlerin nasıl görüntüleneceğini belirler.
-- **block:** Elementi blok seviyesi yapar (tam genişlik alır, yeni satırda başlar)
-- **inline:** Elementi satır içi yapar (sadece içeriği kadar yer kaplar)
-- **inline-block:** Inline gibi davranır ama blok özellikleri alabilir
+    - **block:** Elementi blok seviyesi yapar (tam genişlik alır, yeni satırda başlar)
+    - **inline:** Elementi satır içi yapar (sadece içeriği kadar yer kaplar)
+    - **inline-block:** Inline gibi davranır ama blok özellikleri alabilir
 Örnek:
 
     ```css
@@ -92,10 +90,10 @@ div {
     ```
 
 - **Basit Konumlandırma:** Elementlerin sayfadaki konumunu belirler.
-- **static:** Varsayılan değer, normal akışta kalır
-- **relative:** Normal konumuna göre göreceli olarak konumlandırılır
-- **absolute:** En yakın konumlandırılmış üst elemente göre konumlandırılır
-- **fixed:** Görüntü alanına göre sabit konumda kalır
+    - **static:** Varsayılan değer, normal akışta kalır
+    - **relative:** Normal konumuna göre göreceli olarak konumlandırılır
+    - **absolute:** En yakın konumlandırılmış üst elemente göre konumlandırılır
+    - **fixed:** Görüntü alanına göre sabit konumda kalır
 Örnek:
 
     ```css
@@ -110,6 +108,7 @@ div {
     bottom: 0;
 }
     ```
+- **Uygulama:** Önceki projenin sayfa düzenini CSS ile geliştirme
 
 Bu kavramları uygulamalı olarak göstermek için, basit bir sayfa düzeni oluşturabiliriz:
 
@@ -208,10 +207,10 @@ Bu kavramları uygulamalı olarak göstermek için, basit bir sayfa düzeni olu�
 ```
 
 - **Bu örnekte:**
-- **Box Model:** Her element için padding ve margin kullanılmıştır.
-- **Genişlik ve Yükseklik:** Container, sidebar ve main içerik için width kullanılmıştır.
-- **Display:** Nav menüsünde inline elementler kullanılmıştır.
-- **Konumlandırma:** Sidebar ve main içerik float ile yan yana konumlandırılmıştır.
+    - **Box Model:** Her element için padding ve margin kullanılmıştır.
+    - **Genişlik ve Yükseklik:** Container, sidebar ve main içerik için width kullanılmıştır.
+    - **Display:** Nav menüsünde inline elementler kullanılmıştır.
+    - **Konumlandırma:** Sidebar ve main içerik float ile yan yana konumlandırılmıştır.
 
 # 3-Kapsamlı Proje ve Tekrar
 •	Öğrenciler, öğrendikleri tüm HTML ve CSS bilgilerini kullanarak kişisel bir blog veya portfolyo sitesi oluşturacak
