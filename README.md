@@ -38,15 +38,18 @@
 - **Doğası:** HTML, web tarayıcılarının web sayfalarını görüntülemek için anladığı bir dil.
 - 
 **•	Temel HTML yapısı:** <!DOCTYPE html>, <html>, <head>, <body>
-- **DOCTYPE:** HTML belgesinin türünü belirtir. Örneğin: `<!DOCTYPE html>`
+-**DOCTYPE:** HTML belgesinin türünü belirtir. Örneğin: `<!DOCTYPE html>`
+  
 -**html Etiketi:** Sayfadaki tüm içerikleri içine alan en dıştaki etikettir. Bir nevi her şeyi kapsayan büyük kutu gibi düşünebilirsin.
--**head Etiketi:** Sayfanın arka planda çalışan, izleyicilere görünmeyen bilgilerini içerir.
-  Örneğin, sayfanın adı, arama motorlarının anlayacağı açıklamalar ve tasarım için kullanılan dosyalar burada yer alır.
--**body Etiketi:** Sayfada gördüğün her şey buradadır. Metinler, resimler, videolar ve diğer tüm içerikler body etiketi içinde bulunur.
--**•	Metin etiketleri:** <h1> - <h6>, <p>, <br>, <strong>, <em> 
-**`hr :`** bir satır çizgi çeker
+  
+-**head Etiketi:** Sayfanın arka planda çalışan, izleyicilere görünmeyen bilgilerini içerir. Örneğin, sayfanın adı, arama motorlarının anlayacağı açıklamalar ve tasarım için kullanılan dosyalar burada yer alır.
 
-**`br :`** bir satır boşluk bırakır
+-**body Etiketi:** Sayfada gördüğün her şey buradadır. Metinler, resimler, videolar ve diğer tüm içerikler body etiketi içinde bulunur.
+
+-**•Metin etiketleri:** <h1> - <h6>, <p>, <br>, <strong>, <em> 
+**hr :** bir satır çizgi çeker
+
+**br :** bir satır boşluk bırakır
 
 **strong :** kalın yapar
 
@@ -61,7 +64,8 @@ metnin önemli olduğunu belirtir. <b> etiketi ise sadece görsel bir vurgudur v
 **mark :**  yazı üzerine sarı şerit çeker
 
 **•	Uygulama:** Basit bir kişisel tanıtım sayfası oluşturma
-```html
+
+    ```html
     <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -79,16 +83,16 @@ metnin önemli olduğunu belirtir. <b> etiketi ise sadece görsel bir vurgudur v
 </html>
 
 ```
+
 # 2-HTML Listeleri ve Bağlantılar
 **•	Sıralı ve sırasız listeler:** <ul>, <ol>, <li>
-**ol (ordinary list), ul (unordinary list) :** ol 1,2,3 a,b,c şeklinde numaralı veya sıralı listeler,
-ul noktalarla listeler sıralı değildir.
+**ol (ordinary list), ul (unordinary list) :** ol 1,2,3 a,b,c şeklinde numaralı veya sıralı listeler, ul noktalarla listeler sıralı değildir.
 **•	Bağlantılar:** <a href="...">
 **•	Resimler:** <img src="..." alt="..."> 
 
 **Liste Yapısı Örnek :**
 
-´´´html
+    ´´´html
     <ol type="1">
         <li>
             İç Donanım Birimleri
@@ -188,7 +192,7 @@ ul noktalarla listeler sıralı değildir.
 **•	Renk ve arka plan özellikleri**
 **•	Uygulama:** HTML sayfalarına temel stiller ekleme
 
-```css
+    ```css
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -230,7 +234,8 @@ dolgu **(padding)**, kenarlık **(border)** ve kenar boşluğu **(margin)** olma
 **•	Padding (Dolgu):** İçerik ile border arasındaki iç boşluk.
 **•	Content (İçerik):** Elemanın asıl içeriğinin bulunduğu alan.
 Örnek:
-```css
+
+    ```css
 div {
     margin: 10px;
     border: 2px solid black;
@@ -245,7 +250,8 @@ div {
 **•	height:** Yükseklik
 
 Örnek:
-```css
+
+    ```css
 img {
     width: 100px;
     height: 100px;
@@ -258,7 +264,8 @@ img {
 **•	inline:** Elementi satır içi yapar (sadece içeriği kadar yer kaplar)
 **•	inline-block:** Inline gibi davranır ama blok özellikleri alabilir
 Örnek:
-```css
+
+    ```css
 span {
     display: block;
 }
@@ -275,7 +282,7 @@ div {
 **•	fixed:** Görüntü alanına göre sabit konumda kalır
 Örnek:
 
-```css
+    ```css
 .relative {
     position: relative;
     left: 30px;
