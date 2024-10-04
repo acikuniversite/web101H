@@ -56,7 +56,6 @@ dolgu **(padding)**, kenarlık **(border)** ve kenar boşluğu **(margin)** olma
     padding: 15px;
     width: 300px;
     }
-
     ```
 
 - **Genişlik ve Yükseklik Ayarlama:** Elementlerin boyutlarını kontrol etmek için kullanılır.
@@ -85,7 +84,6 @@ dolgu **(padding)**, kenarlık **(border)** ve kenar boşluğu **(margin)** olma
     div {
     display: inline;
     }
-
     ```
 
 - **Basit Konumlandırma:** Elementlerin sayfadaki konumunu belirler.
