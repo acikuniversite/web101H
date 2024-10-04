@@ -48,7 +48,6 @@ dolgu **(padding)**, kenarlık **(border)** ve kenar boşluğu **(margin)** olma
     - **Content (İçerik):** Elemanın asıl içeriğinin bulunduğu alan.
 
 Örnek:
-
     ```css
     div {
     margin: 10px;
@@ -63,7 +62,6 @@ dolgu **(padding)**, kenarlık **(border)** ve kenar boşluğu **(margin)** olma
 - **height:** Yükseklik
 
 Örnek:
-
     ```css
     img {
     width: 100px;
@@ -72,11 +70,12 @@ dolgu **(padding)**, kenarlık **(border)** ve kenar boşluğu **(margin)** olma
     ```
 
 - **Display Özellikleri:** Elementlerin nasıl görüntüleneceğini belirler.
-    - **block:** Elementi blok seviyesi yapar (tam genişlik alır, yeni satırda başlar)
-    - **inline:** Elementi satır içi yapar (sadece içeriği kadar yer kaplar)
+    - **block:** Elementi blok seviyesi yapar (satırın tamamını kullanılmış olarak alır)
+    - **inline:** Elementi satır içi yapar (kelime sonundan devam eder satırı tamamen almaz)
     - **inline-block:** Inline gibi davranır ama blok özellikleri alabilir
+    - **`.`** class'ı temsil eder, **`#`** i'yi temsil eder.
+    - **`<span>`:** inline etiketidir.
 Örnek:
-
     ```css
     span {
     display: block;
@@ -92,7 +91,6 @@ dolgu **(padding)**, kenarlık **(border)** ve kenar boşluğu **(margin)** olma
     - **absolute:** En yakın konumlandırılmış üst elemente göre konumlandırılır
     - **fixed:** Görüntü alanına göre sabit konumda kalır
 Örnek:
-
     ```css
     .relative {
     position: relative;
@@ -185,7 +183,7 @@ Bu kavramları uygulamalı olarak göstermek için, basit bir sayfa düzeni olu�
         <div class="content">
             <div class="sidebar">
                 <h3>Yan Menü</h3>
-                <p>Burası yan menü içeriği.</p>
+                <p>Burası yan menü içeriği.</p>   
             </div>
             <div class="main">
                 <h2>Ana İçerik</h2>
