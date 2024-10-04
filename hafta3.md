@@ -47,7 +47,6 @@ dolgu **(padding)**, kenarlık **(border)** ve kenar boşluğu **(margin)** olma
     - **Padding (Dolgu):** İçerik ile border arasındaki iç boşluk.
     - **Content (İçerik):** Elemanın asıl içeriğinin bulunduğu alan.
 
-Örnek:
     ```css
     div {
     margin: 10px;
@@ -61,7 +60,6 @@ dolgu **(padding)**, kenarlık **(border)** ve kenar boşluğu **(margin)** olma
 - **width:** Genişlik
 - **height:** Yükseklik
 
-Örnek:
     ```css
     img {
     width: 100px;
@@ -75,7 +73,7 @@ dolgu **(padding)**, kenarlık **(border)** ve kenar boşluğu **(margin)** olma
     - **inline-block:** Inline gibi davranır ama blok özellikleri alabilir
     - **`.`** class'ı temsil eder, **`#`** i'yi temsil eder.
     - **`<span>`:** inline etiketidir.
-Örnek:
+
     ```css
     span {
     display: block;
@@ -90,7 +88,7 @@ dolgu **(padding)**, kenarlık **(border)** ve kenar boşluğu **(margin)** olma
     - **relative:** Normal konumuna göre göreceli olarak konumlandırılır
     - **absolute:** En yakın konumlandırılmış üst elemente göre konumlandırılır
     - **fixed:** Görüntü alanına göre sabit konumda kalır
-Örnek:
+
     ```css
     .relative {
     position: relative;
