@@ -33,7 +33,7 @@
         <title>Benim İlk Sayfam</title>
 </head>
 <body>
-    <h1>Merhaba, Ben [İsim]</h1>
+    <h1>Merhaba, Ben Hira!</h1>
     <h2>Hakkımda</h2>
     <p>Bu benim ilk <strong>HTML</strong> sayfam.</p>
     <p><mark>Ben web geliştirme öğreniyorum ve çok heyecanlıyım!</mark></p>
