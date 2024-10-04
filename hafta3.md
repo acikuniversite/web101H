@@ -12,25 +12,24 @@
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     color: #333;
-}
+    }
 
-h1 {
+    h1 {
     color: #0066cc;
     text-align: center;
-}
+    }
 
-.menu {
+    .menu {
     background-color: #333;
     color: white;
     padding: 10px;
-}
+    }
 
-.menu a {
+    .menu a {
     color: white;
     text-decoration: none;
     margin-right: 15px;
-}
-
+    }
     ```
 - **Uygulama:** HTML sayfalarına temel stiller ekleme
 
@@ -51,12 +50,12 @@ dolgu **(padding)**, kenarlık **(border)** ve kenar boşluğu **(margin)** olma
 Örnek:
 
     ```css
-div {
+    div {
     margin: 10px;
     border: 2px solid black;
     padding: 15px;
     width: 300px;
-}
+    }
 
     ```
 
@@ -70,7 +69,7 @@ div {
     img {
     width: 100px;
     height: 100px;
-}
+    }
     ```
 
 - **Display Özellikleri:** Elementlerin nasıl görüntüleneceğini belirler.
@@ -80,12 +79,12 @@ div {
 Örnek:
 
     ```css
-span {
+    span {
     display: block;
-}
-div {
+    }
+    div {
     display: inline;
-}
+    }
 
     ```
 
@@ -97,16 +96,16 @@ div {
 Örnek:
 
     ```css
-.relative {
+    .relative {
     position: relative;
     left: 30px;
     top: 20px;
-}
-.absolute {
+    }
+    .absolute {
     position: absolute;
     right: 0;
     bottom: 0;
-}
+    }
     ```
 - **Uygulama:** Önceki projenin sayfa düzenini CSS ile geliştirme
 
