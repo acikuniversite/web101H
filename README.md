@@ -176,16 +176,18 @@
     -**Footer:** Sayfanın en alt kısmıdır. Genelde iletişim bilgileri, telif hakları, sosyal medya bağlantıları gibi şeyler burada bulunur.
     -**Header:** Sayfanın ya da bir bölümün üst kısmıdır. Genellikle başlıklar, logolar veya menü bağlantıları içerir.
 
-    ![Semantic Html Örneği]([https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJnp5jBUlXTjj-AgoqYdPNAH0i4XvyOWeJLl3IVYwLzApd5vonev2Z5NPNggLRtp7GbseNUjKb8B5b0mzdvT3o_GS-3g-NGgcxdsUEjbVFWwbC4dp7n71k0w_GWl-qH_voeHf-LZfMjjKpdW8OEDpMIhG0azdNt9FAJEy5vBclZepigSPH7QdvXV-wpc4/s627/SemanticHTML.jpg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmuratbilginer.net%2Ffrontend-developer-roadmap-html-5-tutorial-27-semantik-etiketler-div-elementi-2%2F&psig=AOvVaw261zUQXG1uv6QEOnAisJyQ&ust=1728126710199000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjEjOnL9IgDFQAAAAAdAAAAABAE))
+![Semantic Html Örneği]([https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJnp5jBUlXTjj-AgoqYdPNAH0i4XvyOWeJLl3IVYwLzApd5vonev2Z5NPNggLRtp7GbseNUjKb8B5b0mzdvT3o_GS-3g-NGgcxdsUEjbVFWwbC4dp7n71k0w_GWl-qH_voeHf-LZfMjjKpdW8OEDpMIhG0azdNt9FAJEy5vBclZepigSPH7QdvXV-wpc4/s627/SemanticHTML.jpg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmuratbilginer.net%2Ffrontend-developer-roadmap-html-5-tutorial-27-semantik-etiketler-div-elementi-2%2F&psig=AOvVaw261zUQXG1uv6QEOnAisJyQ&ust=1728126710199000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjEjOnL9IgDFQAAAAAdAAAAABAE))
     
 **•	Uygulama:** Önceki projeyi semantik etiketlerle yeniden düzenleme
 
-# 3.	Hafta: CSS'e Giriş
+# 3.Hafta: CSS'e Giriş
+
 # 1- CSS Temelleri
-**•	CSS nedir ve neden kullanılır?**
-**•	CSS ekleme yöntemleri:** Inline, Internal, External
-**•	Temel CSS seçicileri:** element, class, id
-**•	Renk ve arka plan özellikleri**
+
+-**•	CSS nedir ve neden kullanılır?**
+-**•	CSS ekleme yöntemleri:** Inline, Internal, External
+-**•	Temel CSS seçicileri:** element, class, id
+-**•	Renk ve arka plan özellikleri**
 **•	Uygulama:** HTML sayfalarına temel stiller ekleme
 
     ```css
@@ -216,19 +218,20 @@ h1 {
 
 # 2-CSS Box Model ve Sayfa Düzeni
 
-**•	Margin, padding, border kavramları**
-**•	Genişlik ve yükseklik ayarlama**
-**•	Display özellikleri:** block, inline, inline-block
-
-**•	Basit konumlandırma:** static, relative, absolute
+-**•	Margin, padding, border kavramları**
+-**•	Genişlik ve yükseklik ayarlama**
+-**•	Display özellikleri:** block, inline, inline-block
+-**•	Basit konumlandırma:** static, relative, absolute
 
 **•	Uygulama:** Önceki projenin sayfa düzenini CSS ile geliştirme
-**CSS Box Model:** Bu modelde, her HTML elementinin bir kutu gibi davranır ve bu kutunun içerik **(content)**,
+
+-**CSS Box Model:** Bu modelde, her HTML elementinin bir kutu gibi davranır ve bu kutunun içerik **(content)**,
 dolgu **(padding)**, kenarlık **(border)** ve kenar boşluğu **(margin)** olmak üzere dört bölümden oluşur.
-**•	Margin (Kenar Boşluğu):** Elemanın dışındaki boşluk. Diğer elementlerle arasındaki mesafeyi belirler.
-**•	Border (Kenarlık):** Padding ve içeriğin etrafındaki çizgi.
-**•	Padding (Dolgu):** İçerik ile border arasındaki iç boşluk.
-**•	Content (İçerik):** Elemanın asıl içeriğinin bulunduğu alan.
+-**•	Margin (Kenar Boşluğu):** Elemanın dışındaki boşluk. Diğer elementlerle arasındaki mesafeyi belirler.
+-**•	Border (Kenarlık):** Padding ve içeriğin etrafındaki çizgi.
+-**•	Padding (Dolgu):** İçerik ile border arasındaki iç boşluk.
+-**•	Content (İçerik):** Elemanın asıl içeriğinin bulunduğu alan.
+
 Örnek:
 
     ```css
@@ -241,9 +244,9 @@ div {
 
 ```
 
-**Genişlik ve Yükseklik Ayarlama:** Elementlerin boyutlarını kontrol etmek için kullanılır.
-**•	width:** Genişlik
-**•	height:** Yükseklik
+-**Genişlik ve Yükseklik Ayarlama:** Elementlerin boyutlarını kontrol etmek için kullanılır.
+-**•	width:** Genişlik
+-**•	height:** Yükseklik
 
 Örnek:
 
@@ -255,10 +258,10 @@ img {
 
 ```
 
-**Display Özellikleri:** Elementlerin nasıl görüntüleneceğini belirler.
-**•	block:** Elementi blok seviyesi yapar (tam genişlik alır, yeni satırda başlar)
-**•	inline:** Elementi satır içi yapar (sadece içeriği kadar yer kaplar)
-**•	inline-block:** Inline gibi davranır ama blok özellikleri alabilir
+-**Display Özellikleri:** Elementlerin nasıl görüntüleneceğini belirler.
+-**•	block:** Elementi blok seviyesi yapar (tam genişlik alır, yeni satırda başlar)
+-**•	inline:** Elementi satır içi yapar (sadece içeriği kadar yer kaplar)
+-**•	inline-block:** Inline gibi davranır ama blok özellikleri alabilir
 Örnek:
 
     ```css
@@ -271,11 +274,11 @@ div {
 
 ```
 
-**Basit Konumlandırma:** Elementlerin sayfadaki konumunu belirler.
-**•	static:** Varsayılan değer, normal akışta kalır
-**•	relative:** Normal konumuna göre göreceli olarak konumlandırılır
-**•	absolute:** En yakın konumlandırılmış üst elemente göre konumlandırılır
-**•	fixed:** Görüntü alanına göre sabit konumda kalır
+-**Basit Konumlandırma:** Elementlerin sayfadaki konumunu belirler.
+-**•	static:** Varsayılan değer, normal akışta kalır
+-**•	relative:** Normal konumuna göre göreceli olarak konumlandırılır
+-**•	absolute:** En yakın konumlandırılmış üst elemente göre konumlandırılır
+-**•	fixed:** Görüntü alanına göre sabit konumda kalır
 Örnek:
 
     ```css
@@ -295,10 +298,6 @@ div {
 Bu kavramları uygulamalı olarak göstermek için, basit bir sayfa düzeni oluşturabiliriz:
 
 ```html
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="UTF-8">
     <title>CSS Düzen Örneği</title>
     <style>
         body {
@@ -392,11 +391,11 @@ Bu kavramları uygulamalı olarak göstermek için, basit bir sayfa düzeni olu�
 
 ```
 
-**Bu örnekte:**
-**•	Box Model:** Her element için padding ve margin kullanılmıştır.
-**•	Genişlik ve Yükseklik:** Container, sidebar ve main içerik için width kullanılmıştır.
-**•	Display:** Nav menüsünde inline elementler kullanılmıştır.
-**•	Konumlandırma:** Sidebar ve main içerik float ile yan yana konumlandırılmıştır.
+-**Bu örnekte:**
+-**•	Box Model:** Her element için padding ve margin kullanılmıştır.
+-**•	Genişlik ve Yükseklik:** Container, sidebar ve main içerik için width kullanılmıştır.
+-**•	Display:** Nav menüsünde inline elementler kullanılmıştır.
+-**•	Konumlandırma:** Sidebar ve main içerik float ile yan yana konumlandırılmıştır.
 
 # 3-Kapsamlı Proje ve Tekrar
 •	Öğrenciler, öğrendikleri tüm HTML ve CSS bilgilerini kullanarak kişisel bir blog veya portfolyo sitesi oluşturacak
