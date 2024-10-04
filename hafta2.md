@@ -46,15 +46,15 @@
 - **•	Uygulama:** Basit bir iletişim formu oluşturma
 
 # 3-Semantik HTML ve Sayfa Yapısı
--**•	Konu:**  Sayfa yapısını oluşturma ve bölümlere ayırma 
--**•	Semantik etiketler:**
-    -**Article:** Kendi başına anlamlı bir yazı veya içerik parçasını ifade eder. Örneğin, bir blog yazısı veya haber makalesi.
-    -**Section:** Bir konuyu ya da içeriği düzenlemek için kullanılan bir bölüm. Sayfayı konulara göre ayırmak için kullanılır.
-    -**Nav:** Sayfadaki menü veya bağlantılarla gezinme kısmıdır. Örneğin, bir site içi menü veya yönlendirme bağlantıları burada olur.
-    -**Aside:** Ana içerikten bağımsız, ek bilgi veya yan bilgi içeren bölümdür. Örneğin, bir makalenin yanındaki küçük notlar veya reklamlardır.
-    -**Footer:** Sayfanın en alt kısmıdır. Genelde iletişim bilgileri, telif hakları, sosyal medya bağlantıları gibi şeyler burada bulunur.
-    -**Header:** Sayfanın ya da bir bölümün üst kısmıdır. Genellikle başlıklar, logolar veya menü bağlantıları içerir.
+- **•	Konu:**  Sayfa yapısını oluşturma ve bölümlere ayırma 
+- **•	Semantik etiketler:**
+    - **Article:** Kendi başına anlamlı bir yazı veya içerik parçasını ifade eder. Örneğin, bir blog yazısı veya haber makalesi.
+    - **Section:** Bir konuyu ya da içeriği düzenlemek için kullanılan bir bölüm. Sayfayı konulara göre ayırmak için kullanılır.
+    - **Nav:** Sayfadaki menü veya bağlantılarla gezinme kısmıdır. Örneğin, bir site içi menü veya yönlendirme bağlantıları burada olur.
+    - **Aside:** Ana içerikten bağımsız, ek bilgi veya yan bilgi içeren bölümdür. Örneğin, bir makalenin yanındaki küçük notlar veya reklamlardır.
+    - **Footer:** Sayfanın en alt kısmıdır. Genelde iletişim bilgileri, telif hakları, sosyal medya bağlantıları gibi şeyler burada bulunur.
+    - **Header:** Sayfanın ya da bir bölümün üst kısmıdır. Genellikle başlıklar, logolar veya menü bağlantıları içerir.
 
-![Semantic Html Örneği]([https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJnp5jBUlXTjj-AgoqYdPNAH0i4XvyOWeJLl3IVYwLzApd5vonev2Z5NPNggLRtp7GbseNUjKb8B5b0mzdvT3o_GS-3g-NGgcxdsUEjbVFWwbC4dp7n71k0w_GWl-qH_voeHf-LZfMjjKpdW8OEDpMIhG0azdNt9FAJEy5vBclZepigSPH7QdvXV-wpc4/s627/SemanticHTML.jpg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmuratbilginer.net%2Ffrontend-developer-roadmap-html-5-tutorial-27-semantik-etiketler-div-elementi-2%2F&psig=AOvVaw261zUQXG1uv6QEOnAisJyQ&ust=1728126710199000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjEjOnL9IgDFQAAAAAdAAAAABAE))
+![Semantic Html Örneği](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiJnp5jBUlXTjj-AgoqYdPNAH0i4XvyOWeJLl3IVYwLzApd5vonev2Z5NPNggLRtp7GbseNUjKb8B5b0mzdvT3o_GS-3g-NGgcxdsUEjbVFWwbC4dp7n71k0w_GWl-qH_voeHf-LZfMjjKpdW8OEDpMIhG0azdNt9FAJEy5vBclZepigSPH7QdvXV-wpc4/s627/SemanticHTML.jpg](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmuratbilginer.net%2Ffrontend-developer-roadmap-html-5-tutorial-27-semantik-etiketler-div-elementi-2%2F&psig=AOvVaw261zUQXG1uv6QEOnAisJyQ&ust=1728126710199000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMjEjOnL9IgDFQAAAAAdAAAAABAE)](https://muratbilginer.net/wp-content/uploads/2022/09/2021-10-11_01-13-04.png)
     
 - **•	Uygulama:** Önceki projeyi semantik etiketlerle yeniden düzenleme
