@@ -2,14 +2,13 @@
 
 # 1- CSS Temelleri
 
--**•	CSS nedir ve neden kullanılır?**
--**•	CSS ekleme yöntemleri:** Inline, Internal, External
--**•	Temel CSS seçicileri:** element, class, id
--**•	Renk ve arka plan özellikleri**
-**•	Uygulama:** HTML sayfalarına temel stiller ekleme
+- **CSS nedir ve neden kullanılır?**
+- **CSS ekleme yöntemleri:** Inline, Internal, External
+- **Temel CSS seçicileri:** element, class, id
+- **Renk ve arka plan özellikleri**
 
     ```css
-body {
+    body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     color: #333;
@@ -32,23 +31,24 @@ h1 {
     margin-right: 15px;
 }
 
-```
+    ```
+- **Uygulama:** HTML sayfalarına temel stiller ekleme
 
 # 2-CSS Box Model ve Sayfa Düzeni
 
--**•	Margin, padding, border kavramları**
--**•	Genişlik ve yükseklik ayarlama**
--**•	Display özellikleri:** block, inline, inline-block
--**•	Basit konumlandırma:** static, relative, absolute
+- **Margin, padding, border kavramları**
+- **Genişlik ve yükseklik ayarlama**
+- **Display özellikleri:** block, inline, inline-block
+- **Basit konumlandırma:** static, relative, absolute
 
-**•	Uygulama:** Önceki projenin sayfa düzenini CSS ile geliştirme
+- **Uygulama:** Önceki projenin sayfa düzenini CSS ile geliştirme
 
--**CSS Box Model:** Bu modelde, her HTML elementinin bir kutu gibi davranır ve bu kutunun içerik **(content)**,
+- **CSS Box Model:** Bu modelde, her HTML elementinin bir kutu gibi davranır ve bu kutunun içerik **(content)**,
 dolgu **(padding)**, kenarlık **(border)** ve kenar boşluğu **(margin)** olmak üzere dört bölümden oluşur.
--**•	Margin (Kenar Boşluğu):** Elemanın dışındaki boşluk. Diğer elementlerle arasındaki mesafeyi belirler.
--**•	Border (Kenarlık):** Padding ve içeriğin etrafındaki çizgi.
--**•	Padding (Dolgu):** İçerik ile border arasındaki iç boşluk.
--**•	Content (İçerik):** Elemanın asıl içeriğinin bulunduğu alan.
+- **Margin (Kenar Boşluğu):** Elemanın dışındaki boşluk. Diğer elementlerle arasındaki mesafeyi belirler.
+- **Border (Kenarlık):** Padding ve içeriğin etrafındaki çizgi.
+- **Padding (Dolgu):** İçerik ile border arasındaki iç boşluk.
+- **Content (İçerik):** Elemanın asıl içeriğinin bulunduğu alan.
 
 Örnek:
 
@@ -60,26 +60,25 @@ div {
     width: 300px;
 }
 
-```
+    ```
 
--**Genişlik ve Yükseklik Ayarlama:** Elementlerin boyutlarını kontrol etmek için kullanılır.
--**•	width:** Genişlik
--**•	height:** Yükseklik
+- **Genişlik ve Yükseklik Ayarlama:** Elementlerin boyutlarını kontrol etmek için kullanılır.
+- **width:** Genişlik
+- **height:** Yükseklik
 
 Örnek:
 
     ```css
-img {
+    img {
     width: 100px;
     height: 100px;
 }
+    ```
 
-```
-
--**Display Özellikleri:** Elementlerin nasıl görüntüleneceğini belirler.
--**•	block:** Elementi blok seviyesi yapar (tam genişlik alır, yeni satırda başlar)
--**•	inline:** Elementi satır içi yapar (sadece içeriği kadar yer kaplar)
--**•	inline-block:** Inline gibi davranır ama blok özellikleri alabilir
+- **Display Özellikleri:** Elementlerin nasıl görüntüleneceğini belirler.
+- **block:** Elementi blok seviyesi yapar (tam genişlik alır, yeni satırda başlar)
+- **inline:** Elementi satır içi yapar (sadece içeriği kadar yer kaplar)
+- **inline-block:** Inline gibi davranır ama blok özellikleri alabilir
 Örnek:
 
     ```css
@@ -90,13 +89,13 @@ div {
     display: inline;
 }
 
-```
+    ```
 
--**Basit Konumlandırma:** Elementlerin sayfadaki konumunu belirler.
--**•	static:** Varsayılan değer, normal akışta kalır
--**•	relative:** Normal konumuna göre göreceli olarak konumlandırılır
--**•	absolute:** En yakın konumlandırılmış üst elemente göre konumlandırılır
--**•	fixed:** Görüntü alanına göre sabit konumda kalır
+- **Basit Konumlandırma:** Elementlerin sayfadaki konumunu belirler.
+- **static:** Varsayılan değer, normal akışta kalır
+- **relative:** Normal konumuna göre göreceli olarak konumlandırılır
+- **absolute:** En yakın konumlandırılmış üst elemente göre konumlandırılır
+- **fixed:** Görüntü alanına göre sabit konumda kalır
 Örnek:
 
     ```css
@@ -110,8 +109,7 @@ div {
     right: 0;
     bottom: 0;
 }
-
-```
+    ```
 
 Bu kavramları uygulamalı olarak göstermek için, basit bir sayfa düzeni oluşturabiliriz:
 
@@ -209,11 +207,11 @@ Bu kavramları uygulamalı olarak göstermek için, basit bir sayfa düzeni olu�
 
 ```
 
--**Bu örnekte:**
--**•	Box Model:** Her element için padding ve margin kullanılmıştır.
--**•	Genişlik ve Yükseklik:** Container, sidebar ve main içerik için width kullanılmıştır.
--**•	Display:** Nav menüsünde inline elementler kullanılmıştır.
--**•	Konumlandırma:** Sidebar ve main içerik float ile yan yana konumlandırılmıştır.
+- **Bu örnekte:**
+- **Box Model:** Her element için padding ve margin kullanılmıştır.
+- **Genişlik ve Yükseklik:** Container, sidebar ve main içerik için width kullanılmıştır.
+- **Display:** Nav menüsünde inline elementler kullanılmıştır.
+- **Konumlandırma:** Sidebar ve main içerik float ile yan yana konumlandırılmıştır.
 
 # 3-Kapsamlı Proje ve Tekrar
 •	Öğrenciler, öğrendikleri tüm HTML ve CSS bilgilerini kullanarak kişisel bir blog veya portfolyo sitesi oluşturacak
