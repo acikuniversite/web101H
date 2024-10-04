@@ -3,12 +3,12 @@
 # 1-HTML Tabloları
 
 - **Tablo yapısı:**
-    -**table, th, td, tr, rowspan - colspan:**
-    -**tablo, th, caption :** tablo başlıkarı
-    -**td :** satırlardaki datalar
-    -**tr :** row satır 
-    -**rowspan :** satırları birleştirip başlığı hizalar 
-    -**colspan :** sütunları birleştirip başlığı hizalar
+    - **table, th, td, tr, rowspan - colspan:**
+    - **tablo, th, caption :** tablo başlıkarı
+    - **td :** satırlardaki datalar
+    - **tr :** row satır 
+    - **rowspan :** satırları birleştirip başlığı hizalar 
+    - **colspan :** sütunları birleştirip başlığı hizalar
 
 **Uygulama:** Ders programı oluşturma
 
