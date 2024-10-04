@@ -5,7 +5,7 @@
     ```html
     <h1>Merhaba Dünya</h1>
     <p>Bu bir paragraftır.</p>
-    
+
     ```
     
 - **CSS (Cascading Style Sheets):** Web sayfalarının görünümünü ve düzenini tasarlamak için kullanılır. Renkler, yazı tipleri, düzenler ve diğer stil özelliklerini belirler.
@@ -77,6 +77,7 @@ metnin önemli olduğunu belirtir. <b> etiketi ise sadece görsel bir vurgudur v
     <p>Ben web geliştirme öğreniyorum ve çok heyecanlıyım!</p>
 </body>
 </html>
+
 ```
 # 2-HTML Listeleri ve Bağlantılar
 **•	Sıralı ve sırasız listeler:** <ul>, <ol>, <li>
@@ -111,6 +112,7 @@ ul noktalarla listeler sıralı değildir.
             </ol>
         </li>
     </ol>
+    
 ´´´
 
 **•	Uygulama:** Hobi listesi ve favori web sitelerine bağlantılar içeren bir sayfa oluşturma
@@ -152,6 +154,7 @@ ul noktalarla listeler sıralı değildir.
         <td>İngilizce</td>
     </tr>
 </table>
+
 ```
 
 # 2-Formlar ve Giriş Elemanları
@@ -208,6 +211,7 @@ h1 {
     text-decoration: none;
     margin-right: 15px;
 }
+
 ```
 
 # 2-CSS Box Model ve Sayfa Düzeni
@@ -233,6 +237,7 @@ div {
     padding: 15px;
     width: 300px;
 }
+
 ```
 
 **Genişlik ve Yükseklik Ayarlama:** Elementlerin boyutlarını kontrol etmek için kullanılır.
@@ -245,6 +250,7 @@ img {
     width: 100px;
     height: 100px;
 }
+
 ```
 
 **Display Özellikleri:** Elementlerin nasıl görüntüleneceğini belirler.
@@ -259,6 +265,7 @@ span {
 div {
     display: inline;
 }
+
 ```
 
 **Basit Konumlandırma:** Elementlerin sayfadaki konumunu belirler.
@@ -279,6 +286,7 @@ div {
     right: 0;
     bottom: 0;
 }
+
 ```
 
 Bu kavramları uygulamalı olarak göstermek için, basit bir sayfa düzeni oluşturabiliriz:
@@ -378,6 +386,7 @@ Bu kavramları uygulamalı olarak göstermek için, basit bir sayfa düzeni olu�
     </footer>
 </body>
 </html>
+
 ```
 
 **Bu örnekte:**
