@@ -48,17 +48,17 @@
 
 **`br :`** bir satır boşluk bırakır
 
-**`strong :`** kalın yapar
+**strong :** kalın yapar
 
-**`b :`** kalın yapar
+**b :** kalın yapar
 
-**`strong` ve `b`Farkı:** <strong> metni kalın yapmasının yanı sıra, bu metne daha fazla anlam ve önem katar.
+**strong ve bFarkı:** <strong> metni kalın yapmasının yanı sıra, bu metne daha fazla anlam ve önem katar.
 Tarayıcılar genelde metni yine kalın olarak gösterir, ancak ekran okuyucular bu metni daha vurgulu şekilde okuyabilir ve
 metnin önemli olduğunu belirtir. <b> etiketi ise sadece görsel bir vurgudur ve metnin anlamı üzerinde bir etkisi yoktur.
 
-**`i :`** italic yapar
+**i :** italic yapar
 
-**`mark :`**  yazı üzerine sarı şerit çeker
+**mark :**  yazı üzerine sarı şerit çeker
 
 **•	Uygulama:** Basit bir kişisel tanıtım sayfası oluşturma
 ```html
