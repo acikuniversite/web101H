@@ -5,7 +5,7 @@
 
 # Frontend Geliştirme ve Html-Css'e Giriş
 
-![iskelet](https://muratbilginer.net/wp-content/uploads/2022/09/2021-10-11_01-13-04.png)
+![image](https://github.com/user-attachments/assets/c46e18ca-9501-4031-99dd-43d8e301f65e)
 
 - **HTML (HyperText Markup Language):** Web sayfalarının iskeletini oluşturur. Yapı ve içerik sağlamak için kullanılır.
     
