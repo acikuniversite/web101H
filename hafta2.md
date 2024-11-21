@@ -49,6 +49,58 @@
 
 ```
 
+# Tabloda `rowspan` ve `colspan` Nedir?
+
+`rowspan` ve `colspan` tabloların hücrelerini birleştirmek için kullanılan özelliklerdir.
+
+- **`rowspan`**: Hücrenin birden fazla satırı kaplamasını sağlar.
+- **`colspan`**: Hücrenin birden fazla sütunu kaplamasını sağlar.
+
+## `rowspan` Nasıl Çalışır?
+
+`rowspan`, satırları birleştirir.  
+Örneğin, bir tablo hücresinin aşağıdaki 2 veya daha fazla satırı kaplamasını istiyorsanız `rowspan` kullanırsınız.
+
+### Örnek: `rowspan` Kullanımı
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Ad</th>
+            <th>Soyad</th>
+            <th>Not</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Ahmet</td>
+            <td>Yılmaz</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>Demir</td>
+            <td>90</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+```
+
 # Blok ve Satır İçi Elemanlar
 
 - **Blok Elemanlar (block)**: Sayfanın tamamını kaplar. Örneğin, `<div>`, `<p>` gibi etiketler blok elemanlardır.
