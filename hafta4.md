@@ -38,6 +38,7 @@ Benzer içerikleri (örneğin, birden fazla paragraf veya resim) bir grup haline
 </html>
 
 ```
+
 # HTML Formları Nedir?
 
 Formlar, kullanıcıdan bilgi toplamak (örneğin, ad, şifre, e-posta vb.) ve bu bilgileri sunucuya göndermek için kullanılır.  
@@ -49,6 +50,9 @@ Formlar, `<form>` etiketiyle oluşturulur.
 <form action="işlem_adresi" method="GET veya POST">
     <!-- Form elemanları buraya eklenir -->
 </form>
+
+```
+
 - `action`: Verilerin gönderileceği adresi belirtir.  
 - `method`: Verilerin nasıl gönderileceğini belirtir:
     - `GET`: Veriler URL'ye eklenir (kısa ve az hassas bilgiler için).
@@ -75,24 +79,27 @@ Formlar, `<form>` etiketiyle oluşturulur.
     Şifre: <input type="password" name="sifre"><br>
     <button type="submit">Gönder</button>
 </form>
-- **`<label>`**: Giriş kutularına açıklama ekler.
 
 ```
+- **`<label>`**: Giriş kutularına açıklama ekler.
+
 **Kullanımı:**
 
 ```html
 <label for="ad">Adınız:</label>
 <input type="text" id="ad" name="ad">
-### `<textarea>`: Uzun Metinler İçin Kutu Oluşturur
 
 ```
+### `<textarea>`: Uzun Metinler İçin Kutu Oluşturur
+
 **Örnek:**
 
 ```html
 <textarea name="mesaj" rows="4" cols="50"></textarea>
-### `<select>` ve `<option>`: Açılır Menü Oluşturur
 
 ```
+### `<select>` ve `<option>`: Açılır Menü Oluşturur
+
 **Örnek:**
 
 ```html
