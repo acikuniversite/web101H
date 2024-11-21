@@ -1,16 +1,29 @@
-# 2.Hafta: HTML Yapıları ve Tablolar
+# 2.Hafta: HTML Etiketleri ve Tablolar
 
-# 1-HTML Tabloları
+# HTML Temel Etiketler
 
-- **Tablo yapısı:**
-    - **table, th, td, tr, rowspan - colspan:**
-    - **tablo, th, caption :** tablo başlıkarı
-    - **td :** satırlardaki datalar
-    - **tr :** row satır 
-    - **rowspan :** satırları birleştirip başlığı hizalar 
-    - **colspan :** sütunları birleştirip başlığı hizalar
+- **`<hr>`**: Bir yatay çizgi çeker. Sayfanın farklı bölümlerini ayırmak için kullanılır.
+- **`<br>`**: Satır sonu bırakır. Bu etiketi kullanarak bir satır boşluk bırakabilirsiniz.
+- **`<strong>` ve `<b>`**: Her ikisi de metni kalın yapar. Ancak `<strong>` anlam açısından vurgulamak için, `<b>` ise sadece görsel olarak kalın yapmak için kullanılır.
+- **`<i>`**: Metni italik yapar, yani eğik yazı.
+- **`<mark>`**: Yazı üzerine sarı renkli bir arka plan (şerit) ekler, genellikle vurgulamak için kullanılır.
+- **`src`**: Bir resmin kaynağını belirtir. Örneğin, `<img src="image.jpg">` etiketi ile bir resmi sayfada gösterirsiniz.
+- **`<center>`**: İçine aldığı tüm öğeleri sayfa ortasında hizalar.
 
-**Uygulama:** Ders programı oluşturma
+# HTML Etiketleriyle Listeleme
+
+- **`<ol>`**: Sıralı liste oluşturur (1, 2, 3, ...).
+- **`<ul>`**: Sırasız liste oluşturur (● gibi işaretler ile).
+- **`<li>`**: Liste öğesi ekler. Hem sıralı hem de sırasız listelerde kullanılır.
+
+# Tablolar
+
+- **`<table>`**: Tabloyu başlatır.
+- **`<tr>`**: Tablo satırıdır. Tabloda bir satır eklemek için kullanılır.
+- **`<th>`**: Tablo başlık hücresidir. Genellikle tabloların üst kısmındaki başlıklar için kullanılır.
+- **`<td>`**: Tablo veri hücresidir. Satırlardaki verileri eklemek için kullanılır.
+- **`rowspan` ve `colspan`**: Bu özellikler, hücrelerin birden fazla satır veya sütun boyunca birleşmesini sağlar.
+- **Uygulama:** Ders programı oluşturma
 
 ```html
 <table border="1">
@@ -36,14 +49,20 @@
 
 ```
 
-# 2-Formlar ve Giriş Elemanları
+# Blok ve Satır İçi Elemanlar
 
-- **Form yapısı** 
-- **Metin girişi** 
-- **Seçim elemanları**
-- **Butonlar**  
+- **Blok Elemanlar (block)**: Sayfanın tamamını kaplar. Örneğin, `<div>`, `<p>` gibi etiketler blok elemanlardır.
+- **Satır İçi Elemanlar (inline)**: Sadece gerektiği kadar yer kaplar, diğer öğelerle aynı satırda devam eder. Örneğin, `<span>`, `<a>` gibi etiketler satır içi elemanlardır.
 
-- **Uygulama:** Basit bir iletişim formu oluşturma
+# CSS Seçiciler ve Özellikler
+
+- **`#` (ID Seçici)**: Belirli bir öğeyi ID'sine göre seçer. Örneğin, `#header` bir öğeyi `id="header"` olan öğeyi seçer.
+- **`.` (Class Seçici)**: Belirli bir öğeyi class'ına göre seçer. Örneğin, `.button` bir öğeyi `class="button"` olan öğeyi seçer.
+- **`*` (Genel Seçici)**: Tüm öğelere stil verir.
+
+# CSS Etkileşimli Özellikler
+
+- **`:hover`**: Bu özellik, fare imleci bir öğenin üzerine geldiğinde çalışır. Örneğin, bir butona tıklandığında renginin değişmesini sağlamak için `:hover` kullanabilirsiniz.
 
 # 3-Semantik HTML ve Sayfa Yapısı
 - **Konu:**  Sayfa yapısını oluşturma ve bölümlere ayırma 
