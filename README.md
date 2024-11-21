@@ -2,6 +2,7 @@
 - 1.[Hafta: HTML Temelleri](./hafta1.md)
 - 2.[Hafta: HTML Yapıları ve Tablolar](./hafta2.md)
 - 3.[Hafta: Css'e Giriş](./hafta3.md)
+- 4.[Hafta: Div ve Form Yapıları](./hafta4.md)
 
 # Frontend Geliştirme ve Html-Css'e Giriş
 
