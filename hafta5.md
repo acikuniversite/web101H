@@ -1,4 +1,4 @@
-# 5.Hafta: Seçiciler, Renklendirme ve Border-Radius Yapıları
+# 5.Hafta: CSS Özellikleri (Seçiciler, Renklendirme, border- radius)
 
 **CSS ID, Class ve Genel Seçiciler Nedir?**
 
