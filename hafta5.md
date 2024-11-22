@@ -1,3 +1,5 @@
+# 5.Hafta: Seçiciler, Renklendirme ve Border-Radius Yapıları
+
 **CSS ID, Class ve Genel Seçiciler Nedir?**
 
 CSS'te HTML elemanlarına stil vermek için seçiciler kullanılır. Bu seçiciler sayesinde hangi öğenin stil alacağını belirleriz. **ID**, **Class**, ve **Genel Seçiciler** bu amaçla kullanılan en temel seçicilerdendir.
