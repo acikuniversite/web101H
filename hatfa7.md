@@ -1,3 +1,5 @@
+# 7.Hafta: CSS Özellikleri (parent-child, Overflow(Taşma))
+
 **CSS Parent-Child (Ebeveyn-Çocuk) İlişkisi Nedir?**
 
 Bir HTML belgesinde, öğeler birbirleriyle **ebeveyn (parent)** ve **çocuk (child)** ilişkisi kurar. **CSS**'te, bu ilişkiyi kullanarak bir ebeveyn öğeye stil verirken onun içindeki (çocuk) öğeleri de etkileyebiliriz.
