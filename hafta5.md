@@ -113,7 +113,7 @@ h1, p {
 
 ```
 
-**Örnek:** Tüm <h1> ve <p> etiketleri aynı yazı tipiyle yazılır.
+**Örnek:** Tüm `<h1>` ve `<p>` etiketleri aynı yazı tipiyle yazılır.
 
 **d. Alt Seçiciler**
 
