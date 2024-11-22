@@ -13,25 +13,21 @@ CSS'te HTML elemanlarına stil vermek için seçiciler kullanılır. Bu seçicil
 
 **HTML:**
 
-html
-
-Kodu kopyala
-
+```html
 <div id="benimID">Bu bir ID örneğidir.</div>
+
+```
 
 **CSS:**
 
-css
-
-Kodu kopyala
+```css
 
 #benimID {
-
 `    `color: blue;
-
 `    `font-weight: bold;
-
 }
+
+```
 
 **Çıktı:**
 
@@ -51,28 +47,21 @@ Kodu kopyala
 
 **HTML:**
 
-html
-
-Kodu kopyala
-
+```html
 <p class="paragraf">Bu bir paragraf örneğidir.</p>
-
 <p class="paragraf">Bu başka bir paragraf örneğidir.</p>
+
+```
 
 **CSS:**
 
-css
-
-Kodu kopyala
-
+```css
 .paragraf {
-
 `    `color: green;
-
 `    `font-size: 18px;
-
 }
 
+```
 **Çıktı:**
 
 - class="paragraf" olan tüm <p> etiketleri yeşil renkte ve 18px boyutunda yazılır.
@@ -89,17 +78,14 @@ Genel seçiciler, tüm öğelere veya belirli bir gruptaki öğelere stil vermek
 
 - Tüm öğelere stil verir.
 
-css
-
-Kodu kopyala
+```css
 
 \* {
-
 `    `margin: 0;
-
 `    `padding: 0;
-
 }
+
+```
 
 **Örnek:** Tüm öğelerin dış ve iç boşluklarını sıfırlar.
 
@@ -107,15 +93,12 @@ Kodu kopyala
 
 - Belirli bir HTML etiketine stil verir.
 
-css
-
-Kodu kopyala
-
+```css
 h1 {
-
 `    `color: red;
-
 }
+
+```
 
 **Örnek:** Sayfadaki tüm <h1> etiketleri kırmızı renkte yazılır.
 
@@ -123,15 +106,12 @@ h1 {
 
 - Aynı anda birden fazla seçici kullanılır.
 
-css
-
-Kodu kopyala
-
+```css
 h1, p {
-
 `    `font-family: Arial, sans-serif;
-
 }
+
+```
 
 **Örnek:** Tüm <h1> ve <p> etiketleri aynı yazı tipiyle yazılır.
 
@@ -139,15 +119,12 @@ h1, p {
 
 - Belirli bir öğenin içindeki başka bir öğeyi hedefler.
 
-css
-
-Kodu kopyala
-
+```css
 .container p {
-
-`    `color: purple;
-
+    color: purple;
 }
+
+```
 
 **Örnek:** class="container" olan bir öğenin içindeki <p> etiketleri mor olur.
 
@@ -165,51 +142,33 @@ Kodu kopyala
 
 **HTML Kodu:**
 
-html
-
-Kodu kopyala
-
+```html
 <div id="header">Bu ID ile seçildi.</div>
-
 <p class="content">Bu class ile seçildi.</p>
-
 <p class="content">Bu da aynı class ile seçildi.</p>
-
 <div>
-
 `    `<p>Bu sadece etiket seçiciyle seçilir.</p>
-
 </div>
+
+```
 
 **CSS Kodu:**
 
-css
-
-Kodu kopyala
-
+```css
 #header {
-
 `    `background-color: lightblue;
-
 `    `padding: 10px;
-
 `    `text-align: center;
-
 }
-
 .content {
-
 `    `font-size: 18px;
-
 `    `color: darkgreen;
-
 }
-
 p {
-
 `    `font-style: italic;
-
 }
+
+```
 
 **Sonuç:**
 
@@ -225,67 +184,38 @@ p {
 -----
 **Tam Örnek**
 
-html
-
-Kodu kopyala
-
+```html
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
 `    `<style>
-
 `        `#header {
-
 `            `background-color: lightcoral;
-
 `            `color: white;
-
 `            `text-align: center;
-
 `            `padding: 15px;
-
 `        `}
-
 .highlight {
-
 `            `color: orange;
-
 `            `font-weight: bold;
-
 `        `}
-
 `        `p {
-
 `            `font-family: "Times New Roman", serif;
-
 `        `}
-
 `        `\* {
-
 `            `margin: 0;
-
 `            `padding: 0;
-
 `        `}
-
 `    `</style>
-
 </head>
-
 <body>
-
 `    `<div id="header">Merhaba, CSS ID ve Class Öğreniyoruz!</div>
-
 `    `<p class="highlight">Bu bir örnek metindir.</p>
-
 `    `<p>Bu başka bir paragraftır.</p>
-
 </body>
-
 </html>
+
+```
 
 **Sonuç:**
 
@@ -304,18 +234,13 @@ CSS'te, yaygın kullanılan renklerin **adlarıyla** renkleri belirtebiliriz. Ö
 
 **Örnek:**
 
-css
-
-Kodu kopyala
-
+```css
 body {
-
 `    `background-color: blue; /\* Arka plan rengi mavi \*/
-
 `    `color: white; /\* Yazı rengi beyaz \*/
-
 }
 
+```
 **Desteklenen Renk İsimleri:**
 
 - red, blue, green, yellow, black, white, gray vb.
@@ -328,16 +253,12 @@ Hexadecimal (kısaca **hex**) renk kodları, renkleri altı haneli bir sayı ile
 
 **Örnek:**
 
-css
-
-Kodu kopyala
-
+```css
 body {
-
 `    `background-color: #FF5733; /\* Bu renk turuncuya yakın bir kırmızı \*/
-
 }
 
+```
 Buradaki #FF5733 şu şekilde açıklanabilir:
 
 - FF: Kırmızı (red) bileşeni, 255 (maksimum değeri)
@@ -352,15 +273,12 @@ Buradaki #FF5733 şu şekilde açıklanabilir:
 
 **Örnek:**
 
-css
-
-Kodu kopyala
-
+```css
 body {
-
 `    `background-color: rgb(255, 87, 51); /\* Aynı renk, RGB ile belirtilmiş \*/
-
 }
+
+```
 
 - Burada, 255 kırmızı, 87 yeşil, 51 mavi bileşenlerinin yoğunluğunu gösterir.
 -----
@@ -372,16 +290,12 @@ body {
 
 **Örnek:**
 
-css
-
-Kodu kopyala
-
+```css
 body {
-
 `    `background-color: rgba(255, 87, 51, 0.5); /\* Yarı şeffaf turuncu \*/
-
 }
 
+```
 - Burada, 0.5 alpha değeri, rengin %50 şeffaf olduğunu gösterir.
 -----
 **5. HSL (Hue, Saturation, Lightness) Renk Modeli**
@@ -395,16 +309,12 @@ body {
 
 **Örnek:**
 
-css
-
-Kodu kopyala
-
+```css
 body {
-
 `    `background-color: hsl(9, 100%, 60%); /\* Turuncuya yakın bir renk \*/
-
 }
 
+```
 - Burada, 9 ton değeri turuncu rengini, 100% doygunluk ve 60% açıklık değeri ile renk belirlenmiştir.
 -----
 **6. HSLA (HSL + Alpha) Renk Modeli**
@@ -415,16 +325,12 @@ body {
 
 **Örnek:**
 
-css
-
-Kodu kopyala
-
+```css
 body {
-
 `    `background-color: hsla(9, 100%, 60%, 0.5); /\* Yarı şeffaf turuncu \*/
-
 }
 
+```
 -----
 **7. CSS Renk Kısaltmaları**
 
@@ -449,52 +355,30 @@ Hex renk kodları 3 haneli olarak da yazılabilir. Örneğin, #FFF yerine #FFFFF
 -----
 **Tam Örnek**
 
-html
-
-Kodu kopyala
-
+```html
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
 `    `<style>
-
 `        `body {
-
 `            `background-color: #FF5733; /\* Hex \*/
-
 `            `color: rgb(255, 255, 255); /\* RGB \*/
-
 `        `}
-
 `        `h1 {
-
 `            `color: hsl(120, 100%, 50%); /\* HSL \*/
-
 `        `}
-
 `        `p {
-
 `            `color: rgba(0, 0, 255, 0.5); /\* RGBA \*/
-
 `        `}
-
 `    `</style>
-
 </head>
-
 <body>
-
 `    `<h1>Başlık</h1>
-
 `    `<p>Bu bir paragraf. Yarı şeffaf mavi renkte!</p>
-
 </body>
-
 </html>
 
+```
 **Sonuç:**
 
 - Arka plan **turuncu** (#FF5733).
@@ -515,12 +399,10 @@ CSS ile renkler farklı yöntemlerle tanımlanabilir. **Hex**, **RGB**, **HSL**,
 
 1. **Temel Yazım:**
 
-css
-
-Kodu kopyala
-
+```css
 border-radius: değer;
 
+```
 1. **Değer Tipleri:**
    1. **Pixel (px):** Kesin bir uzunluk belirler.
       Örnek: border-radius: 10px;
@@ -531,39 +413,27 @@ border-radius: değer;
 
 **1. Köşeleri Hafif Yuvarlatmak**
 
-css
-
-Kodu kopyala
-
+```css
 div {
-
 `    `border: 2px solid black;
-
 `    `border-radius: 10px;
-
 }
 
+```
 **Sonuç:** Köşeler hafif yuvarlanır.
 
 -----
 **2. Tamamen Daire Yapmak**
 
-css
-
-Kodu kopyala
-
+```css
 div {
-
 `    `width: 100px;
-
 `    `height: 100px;
-
 `    `background-color: lightblue;
-
 `    `border-radius: 50%;
-
 }
 
+```
 **Sonuç:** Daire şeklinde bir öğe oluşturulur.
 
 -----
@@ -574,118 +444,70 @@ div {
 - **border-bottom-left-radius**: Sol alt köşeyi yuvarlatır.
 - **border-bottom-right-radius**: Sağ alt köşeyi yuvarlatır.
 
-css
-
-Kodu kopyala
-
+```css
 div {
-
 `    `border: 2px solid black;
-
 `    `border-top-left-radius: 20px;
-
 `    `border-bottom-right-radius: 30px;
-
 }
 
+```
 **Sonuç:** Sadece sol üst ve sağ alt köşe yuvarlanır.
 
 -----
 **4. Farklı Köşelere Farklı Değerler Vermek**
 
-css
-
-Kodu kopyala
-
+```css
 div {
-
 `    `border: 2px solid black;
-
 `    `border-radius: 10px 20px 30px 40px; /\* Sırasıyla sol üst, sağ üst, sağ alt, sol alt \*/
-
 }
 
+```
 **Sonuç:** Her köşe farklı oranlarda yuvarlanır.
 
 -----
 **Basit HTML ve CSS Örneği**
 
-html
-
-Kodu kopyala
-
+```html
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
 `    `<style>
-
 .kare {
-
 `            `width: 150px;
-
 `            `height: 150px;
-
 `            `background-color: lightcoral;
-
 `            `border: 2px solid black;
-
 `            `margin: 10px;
-
 `        `}
-
 .yuvarlak {
-
 `            `width: 150px;
-
 `            `height: 150px;
-
 `            `background-color: lightblue;
-
 `            `border-radius: 50%;
-
 `            `border: 2px solid black;
-
 `            `margin: 10px;
-
 `        `}
-
 .ozel {
-
 `            `width: 150px;
-
 `            `height: 150px;
-
 `            `background-color: lightgreen;
-
 `            `border-radius: 20px 40px 10px 30px;
-
 `            `border: 2px solid black;
-
 `            `margin: 10px;
-
 `        `}
-
 `    `</style>
-
 </head>
-
 <body>
-
 `    `<h1>CSS Border Radius Örnekleri</h1>
-
 `    `<div class="kare">Kare</div>
-
 `    `<div class="yuvarlak">Yuvarlak</div>
-
 `    `<div class="ozel">Özel</div>
-
 </body>
-
 </html>
 
+```
 -----
 **Bu Örnekte Neler Oluyor?**
 
