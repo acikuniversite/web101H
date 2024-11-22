@@ -1,4 +1,4 @@
-**Bootstrap Nedir?**
+# 8.Hafta: Bootsrap Nedir?
 
 **Bootstrap**, web geliştirmeyi hızlandıran bir **önceden yazılmış CSS ve JavaScript kütüphanesidir**. Web sayfalarınızı hızlıca güzel ve işlevsel hale getirebilmek için kullanılır. Özellikle **mobil uyumlu** (responsive) web tasarımları yapmak için çok kullanışlıdır.
 
