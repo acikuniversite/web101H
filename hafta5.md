@@ -23,8 +23,8 @@ CSS'te HTML elemanlarına stil vermek için seçiciler kullanılır. Bu seçicil
 ```css
 
 #benimID {
-`    `color: blue;
-`    `font-weight: bold;
+    color: blue;
+    font-weight: bold;
 }
 
 ```
@@ -57,8 +57,8 @@ CSS'te HTML elemanlarına stil vermek için seçiciler kullanılır. Bu seçicil
 
 ```css
 .paragraf {
-`    `color: green;
-`    `font-size: 18px;
+    color: green;
+    font-size: 18px;
 }
 
 ```
@@ -81,8 +81,8 @@ Genel seçiciler, tüm öğelere veya belirli bir gruptaki öğelere stil vermek
 ```css
 
 \* {
-`    `margin: 0;
-`    `padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 ```
@@ -95,12 +95,12 @@ Genel seçiciler, tüm öğelere veya belirli bir gruptaki öğelere stil vermek
 
 ```css
 h1 {
-`    `color: red;
+    color: red;
 }
 
 ```
 
-**Örnek:** Sayfadaki tüm <h1> etiketleri kırmızı renkte yazılır.
+**Örnek:** Sayfadaki tüm ` <h1> ` etiketleri kırmızı renkte yazılır.
 
 **c. Birleşik Seçiciler**
 
@@ -108,7 +108,7 @@ h1 {
 
 ```css
 h1, p {
-`    `font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 ```
@@ -120,7 +120,7 @@ h1, p {
 - Belirli bir öğenin içindeki başka bir öğeyi hedefler.
 
 ```css
-.container p {
+    .container p {
     color: purple;
 }
 
@@ -147,7 +147,7 @@ h1, p {
 <p class="content">Bu class ile seçildi.</p>
 <p class="content">Bu da aynı class ile seçildi.</p>
 <div>
-`    `<p>Bu sadece etiket seçiciyle seçilir.</p>
+    <p>Bu sadece etiket seçiciyle seçilir.</p>
 </div>
 
 ```
@@ -156,16 +156,16 @@ h1, p {
 
 ```css
 #header {
-`    `background-color: lightblue;
-`    `padding: 10px;
-`    `text-align: center;
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
 }
 .content {
-`    `font-size: 18px;
-`    `color: darkgreen;
+    font-size: 18px;
+    color: darkgreen;
 }
 p {
-`    `font-style: italic;
+    font-style: italic;
 }
 
 ```
@@ -188,30 +188,30 @@ p {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-`    `<style>
-`        `#header {
-`            `background-color: lightcoral;
-`            `color: white;
-`            `text-align: center;
-`            `padding: 15px;
-`        `}
+    <style>
+    #header {
+        background-color: lightcoral;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        }
 .highlight {
-`            `color: orange;
-`            `font-weight: bold;
-`        `}
-`        `p {
-`            `font-family: "Times New Roman", serif;
-`        `}
-`        `\* {
-`            `margin: 0;
-`            `padding: 0;
-`        `}
-`    `</style>
+        color: orange;
+        font-weight: bold;
+        }
+    p {
+        font-family: "Times New Roman", serif;
+        }
+    \* {
+        margin: 0;
+        padding: 0;
+        }
+    </style>
 </head>
 <body>
-`    `<div id="header">Merhaba, CSS ID ve Class Öğreniyoruz!</div>
-`    `<p class="highlight">Bu bir örnek metindir.</p>
-`    `<p>Bu başka bir paragraftır.</p>
+    <div id="header">Merhaba, CSS ID ve Class Öğreniyoruz!</div>
+    <p class="highlight">Bu bir örnek metindir.</p>
+    <p>Bu başka bir paragraftır.</p>
 </body>
 </html>
 
@@ -236,8 +236,8 @@ CSS'te, yaygın kullanılan renklerin **adlarıyla** renkleri belirtebiliriz. Ö
 
 ```css
 body {
-`    `background-color: blue; /\* Arka plan rengi mavi \*/
-`    `color: white; /\* Yazı rengi beyaz \*/
+    background-color: blue; /\* Arka plan rengi mavi \*/
+    color: white; /\* Yazı rengi beyaz \*/
 }
 
 ```
@@ -255,7 +255,7 @@ Hexadecimal (kısaca **hex**) renk kodları, renkleri altı haneli bir sayı ile
 
 ```css
 body {
-`    `background-color: #FF5733; /\* Bu renk turuncuya yakın bir kırmızı \*/
+    background-color: #FF5733; /\* Bu renk turuncuya yakın bir kırmızı \*/
 }
 
 ```
@@ -275,7 +275,7 @@ Buradaki #FF5733 şu şekilde açıklanabilir:
 
 ```css
 body {
-`    `background-color: rgb(255, 87, 51); /\* Aynı renk, RGB ile belirtilmiş \*/
+    background-color: rgb(255, 87, 51); /\* Aynı renk, RGB ile belirtilmiş \*/
 }
 
 ```
@@ -292,7 +292,7 @@ body {
 
 ```css
 body {
-`    `background-color: rgba(255, 87, 51, 0.5); /\* Yarı şeffaf turuncu \*/
+    background-color: rgba(255, 87, 51, 0.5); /\* Yarı şeffaf turuncu \*/
 }
 
 ```
@@ -311,7 +311,7 @@ body {
 
 ```css
 body {
-`    `background-color: hsl(9, 100%, 60%); /\* Turuncuya yakın bir renk \*/
+    background-color: hsl(9, 100%, 60%); /\* Turuncuya yakın bir renk \*/
 }
 
 ```
@@ -327,7 +327,7 @@ body {
 
 ```css
 body {
-`    `background-color: hsla(9, 100%, 60%, 0.5); /\* Yarı şeffaf turuncu \*/
+    background-color: hsla(9, 100%, 60%, 0.5); /\* Yarı şeffaf turuncu \*/
 }
 
 ```
