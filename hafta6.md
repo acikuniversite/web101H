@@ -1,4 +1,4 @@
-#6.Hafta - CSS Özellikleri (width-height, margin-padding, text-font)
+# 6.Hafta - CSS Özellikleri (width-height, margin-padding, text-font)
 
 **CSS width ve height Nedir?**
 
