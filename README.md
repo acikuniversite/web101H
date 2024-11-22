@@ -6,6 +6,7 @@
 - 5.[Hafta: CSS Özellikleri (Seçiciler, Renklendirme, border- radius)](./hafta5.md)
 - 6.[Hafta: CSS Özellikleri (width-height, margin-padding, text-font)](./hafta6.md)
 - 7.[Hafta: CSS Özellikleri (parent-child, Overflow(Taşma))](./hafta7.md)
+- 8.[Hafta: Bootsrap Nedir?](./hafta8.md)
 
 # Frontend Geliştirme ve Html-Css'e Giriş
 
