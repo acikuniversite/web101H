@@ -1,3 +1,5 @@
+#6.Hafta - CSS Özellikleri (width-height, margin-padding, text-font)
+
 **CSS width ve height Nedir?**
 
 - **width (genişlik)** ve **height (yükseklik)**, HTML öğelerinin boyutlarını ayarlamak için kullanılır.
