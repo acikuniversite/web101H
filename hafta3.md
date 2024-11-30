@@ -84,10 +84,10 @@ dolgu **(padding)**, kenarlık **(border)** ve kenar boşluğu **(margin)** olma
     ```
 
 - **Basit Konumlandırma:** Elementlerin sayfadaki konumunu belirler.
-    - **static:** Varsayılan değer, normal akışta kalır
-    - **relative:** Normal konumuna göre göreceli olarak konumlandırılır
-    - **absolute:** En yakın konumlandırılmış üst elemente göre konumlandırılır
-    - **fixed:** Görüntü alanına göre sabit konumda kalır
+    - **static:** Varsayılan değer, normal akışta kalır. Hiç hareket etmez.
+    - **relative:** Normal konumuna göre göreceli olarak konumlandırılır. Konum değişir ama yeri korunur.
+    - **absolute:** En yakın konumlandırılmış üst elemente göre konumlandırılır. Üst elemente göre hareket eder.
+    - **fixed:** Görüntü alanına göre sabit konumda kalır. Tarayıcıya göre sabit kalır.
 
     ```css
     .relative {
