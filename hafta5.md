@@ -300,40 +300,7 @@ body {
 ```
 - Burada, 0.5 alpha değeri, rengin %50 şeffaf olduğunu gösterir.
 -----
-**5. HSL (Hue, Saturation, Lightness) Renk Modeli**
 
-**HSL**, bir rengin **tonunu (Hue)**, **doygunluğunu (Saturation)** ve **açıklığını (Lightness)** belirtir. HSL modelinde, renkler daha anlaşılır bir şekilde tanımlanabilir.
-
-- **Format:** hsl(ton, doygunluk%, açıklık%)
-  - **Ton**: 0 ile 360 arasında, renk çarkındaki yerini belirtir (0 = kırmızı, 120 = yeşil, 240 = mavi, vb.)
-  - **Doygunluk**: 0% (gri) ile 100% (tam doygun renk) arasında.
-  - **Açıklık**: 0% (karanlık) ile 100% (tam aydınlık) arasında.
-
-**Örnek:**
-
-```css
-body {
-    background-color: hsl(9, 100%, 60%); /\* Turuncuya yakın bir renk \*/
-}
-
-```
-- Burada, 9 ton değeri turuncu rengini, 100% doygunluk ve 60% açıklık değeri ile renk belirlenmiştir.
------
-**6. HSLA (HSL + Alpha) Renk Modeli**
-
-**HSLA**, HSL modeline alpha kanalını ekler. Bu, renge şeffaflık ekler.
-
-- **Format:** hsla(ton, doygunluk%, açıklık%, alfa)
-
-**Örnek:**
-
-```css
-body {
-    background-color: hsla(9, 100%, 60%, 0.5); /\* Yarı şeffaf turuncu \*/
-}
-
-```
------
 **7. CSS Renk Kısaltmaları**
 
 Hex renk kodları 3 haneli olarak da yazılabilir. Örneğin, #FFF yerine #FFFFFF yazılabilir. Aynı şekilde, bazı CSS renk adları da kısaltılabilir.
